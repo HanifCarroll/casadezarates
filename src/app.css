@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors from XD specs */
+  --color-terracotta: #BC5727;
+  --color-rose: #D18E97;
+  --color-gold: #D89E00;
+  --color-brown: #553310;
+
+  /* Fonts from Typekit */
+  --font-family-serif: "fig-serif", Georgia, serif;
+  --font-family-script: "fig-script", cursive;
+  --font-family-sans: "fig-sans", sans-serif;
+  --font-family-mono: "prestige-elite-std", monospace;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-sans);
+}
+
+.font-script {
+  font-family: var(--font-family-script);
+}
+
+.font-sans {
+  font-family: var(--font-family-sans);
+}
+
+.font-mono {
+  font-family: var(--font-family-mono);
+}
