@@ -23,7 +23,7 @@
 	<div class="">
 		<button
 			onclick={handleSaveTheDate}
-			class="group flex items-center gap-3 px-4 py-2 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 cursor-pointer shadow-[5px_5px_0px_0px_#CD8789,5px_5px_0px_1px_black]"
+			class="group flex items-center gap-3 px-2 py-0 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 cursor-pointer shadow-[5px_5px_0px_0px_#CD8789,5px_5px_0px_1px_black]"
 		>
 			<span class="text-black font-script text-[20pt] sm:text-[26pt]">Save the date</span>
 			<svg

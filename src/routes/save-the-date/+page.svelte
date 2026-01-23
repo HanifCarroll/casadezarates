@@ -53,7 +53,7 @@
 		<div class="space-y-6 flex flex-col items-center">
 			<a
 				href="/more-info"
-				class="group inline-flex items-center justify-between w-48 sm:w-56 px-4 py-2 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
+				class="group inline-flex items-center justify-between w-48 sm:w-56 px-2 py-0 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
 			>
 				<span class="font-script text-black text-[16pt] sm:text-[20pt]">More info</span>
 				<svg class="w-5 h-5 text-black group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@
 
 			<a
 				href="/rsvp"
-				class="group inline-flex items-center justify-between w-48 sm:w-56 px-4 py-2 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
+				class="group inline-flex items-center justify-between w-48 sm:w-56 px-2 py-0 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
 			>
 				<span class="font-script text-black text-[16pt] sm:text-[20pt]">Pre RSVP</span>
 				<svg class="w-5 h-5 text-black group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

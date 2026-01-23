@@ -52,7 +52,7 @@
 					id="fullName"
 					bind:value={fullName}
 					required
-					class="w-full max-w-xs mx-auto block border-2 border-black bg-white px-4 py-2 font-mono text-[14pt] sm:text-[16pt] text-black focus:outline-none focus:ring-2 focus:ring-black"
+					class="w-full max-w-xs mx-auto block border-2 border-black bg-white px-2 py-0 font-mono text-[14pt] sm:text-[16pt] text-black focus:outline-none focus:ring-2 focus:ring-black"
 				/>
 			</div>
 
@@ -105,7 +105,7 @@
 			<div class="text-center pt-4">
 				<button
 					type="submit"
-					class="font-script text-[16pt] sm:text-[20pt] text-black px-4 py-2 border border-black bg-white hover:bg-gray-50 transition-colors shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
+					class="font-script text-[16pt] sm:text-[20pt] text-black px-2 py-0 border border-black bg-white hover:bg-gray-50 transition-colors shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
 				>
 					Submit
 				</button>
