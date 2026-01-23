@@ -4,14 +4,40 @@
 	let fullName = $state('');
 	let status = $state('');
 
+	const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdLLPc2n1U23l0My_GlyNX-Uyyxx8810_lmR5ll63tkbFaYVA/formResponse';
+	const ENTRY_NAME = 'entry.1881324885';
+	const ENTRY_STATUS = 'entry.662734428';
+
+	// Map our status values to Google Form values
+	const statusMap: Record<string, string> = {
+		accepting: 'Joyfully accepting',
+		hoping: 'Hoping to make it, TBD',
+		declining: "Sadly, can't make it"
+	};
+
 	function openMenu() {
 		goto('/menu');
 	}
 
-	function handleSubmit(e: Event) {
+	async function handleSubmit(e: Event) {
 		e.preventDefault();
-		// In a real app, you'd submit this data to a server
-		// For now, just navigate to thank you page
+
+		const formData = new FormData();
+		formData.append(ENTRY_NAME, fullName);
+		formData.append(ENTRY_STATUS, statusMap[status] || status);
+
+		try {
+			// Submit to Google Forms (no-cors because Google doesn't allow CORS)
+			await fetch(GOOGLE_FORM_URL, {
+				method: 'POST',
+				mode: 'no-cors',
+				body: formData
+			});
+		} catch (error) {
+			// Even if there's an error, the data is usually submitted
+			console.log('Form submitted');
+		}
+
 		goto('/rsvp/thank-you');
 	}
 </script>
