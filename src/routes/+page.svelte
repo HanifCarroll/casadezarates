@@ -11,16 +11,16 @@
 	<meta name="description" content="Save the date for Markis and Olivia's wedding in Mexico City" />
 </svelte:head>
 
-<main class="h-dvh bg-terracotta flex flex-col items-center justify-center p-4 sm:p-8">
-	<div class="flex-1 flex items-center justify-center w-full">
+<main class="h-dvh bg-terracotta flex flex-col items-center justify-center gap-6 sm:gap-10 p-4 sm:p-8">
+	<div class="flex items-center justify-center w-full">
 		<img
 			src="/LandingPage.gif"
 			alt="Markis + Olivia"
-			class="max-w-[85%] sm:max-w-full max-h-[70vh] object-contain"
+			class="max-w-[85%] sm:max-w-full max-h-[65vh] object-contain"
 		/>
 	</div>
 
-	<div class="pb-8 sm:pb-16">
+	<div class="">
 		<button
 			onclick={handleSaveTheDate}
 			class="group flex items-center gap-3 px-6 py-3 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 cursor-pointer shadow-[5px_5px_0px_0px_#CD8789,5px_5px_0px_1px_black]"
