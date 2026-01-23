@@ -19,17 +19,17 @@
 	</button>
 
 	<!-- Menu items -->
-	<nav class="flex-1 flex flex-col justify-center items-center space-y-8">
-		<a href="/" class="font-script text-[49pt] text-white hover:opacity-80 transition-opacity">
+	<nav class="flex-1 flex flex-col justify-center items-center space-y-4 sm:space-y-8">
+		<a href="/" class="font-script text-[32pt] sm:text-[49pt] text-white hover:opacity-80 transition-opacity">
 			Home
 		</a>
-		<a href="/save-the-date" class="font-script text-[49pt] text-white hover:opacity-80 transition-opacity">
+		<a href="/save-the-date" class="font-script text-[32pt] sm:text-[49pt] text-white hover:opacity-80 transition-opacity">
 			Save the Date
 		</a>
-		<a href="/more-info" class="font-script text-[49pt] text-white hover:opacity-80 transition-opacity">
+		<a href="/more-info" class="font-script text-[32pt] sm:text-[49pt] text-white hover:opacity-80 transition-opacity">
 			More info
 		</a>
-		<a href="/rsvp" class="font-script text-[49pt] text-white hover:opacity-80 transition-opacity">
+		<a href="/rsvp" class="font-script text-[32pt] sm:text-[49pt] text-white hover:opacity-80 transition-opacity">
 			Pre RSVP
 		</a>
 	</nav>
