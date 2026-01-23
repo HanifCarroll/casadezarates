@@ -66,7 +66,7 @@
 							name="status"
 							value="accepting"
 							bind:group={status}
-							class="mt-1 w-5 h-5 border-2 border-black appearance-none checked:bg-black"
+							class="mt-1 w-5 h-5 border-2 border-black bg-white appearance-none checked:bg-black"
 						/>
 						<span class="font-mono text-[12pt] sm:text-[14pt] text-black leading-tight">
 							Joyfully accepting,<br />save me a seat.
@@ -79,7 +79,7 @@
 							name="status"
 							value="hoping"
 							bind:group={status}
-							class="mt-1 w-5 h-5 border-2 border-black appearance-none checked:bg-black"
+							class="mt-1 w-5 h-5 border-2 border-black bg-white appearance-none checked:bg-black"
 						/>
 						<span class="font-mono text-[12pt] sm:text-[14pt] text-black">
 							Hoping to make it, TBD
@@ -92,7 +92,7 @@
 							name="status"
 							value="declining"
 							bind:group={status}
-							class="mt-1 w-5 h-5 border-2 border-black appearance-none checked:bg-black"
+							class="mt-1 w-5 h-5 border-2 border-black bg-white appearance-none checked:bg-black"
 						/>
 						<span class="font-mono text-[12pt] sm:text-[14pt] text-black leading-tight">
 							Sadly, can't make it.<br />Celebrating from a far
