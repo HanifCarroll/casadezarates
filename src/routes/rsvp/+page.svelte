@@ -35,7 +35,7 @@
 	</header>
 
 	<!-- Content - with padding for fixed header -->
-	<div class="flex-1 max-w-md mx-auto px-6 sm:px-8 w-full pt-32">
+	<div class="flex-1 max-w-md mx-auto px-6 sm:px-8 w-full pt-36">
 		<!-- Disclaimer -->
 		<p class="font-mono text-[12pt] sm:text-[14pt] text-black text-center mb-8 leading-relaxed">
 			*This is not an official RSVP.<br />
