@@ -25,7 +25,7 @@
 	</header>
 
 	<!-- Content - with padding for fixed header -->
-	<div class="flex-1 flex items-center justify-center pt-32">
-		<h1 class="font-script text-[40pt] text-black">Thank you :)</h1>
+	<div class="flex-1 flex items-center justify-center pt-32 px-6">
+		<h1 class="font-script text-[28pt] sm:text-[40pt] text-black">Thank you :)</h1>
 	</div>
 </main>
