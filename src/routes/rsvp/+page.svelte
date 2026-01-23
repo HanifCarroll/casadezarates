@@ -105,7 +105,7 @@
 			<div class="text-center pt-4">
 				<button
 					type="submit"
-					class="font-script text-[16pt] sm:text-[20pt] text-black px-6 py-3 border border-black bg-white hover:bg-gray-50 transition-colors shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
+					class="font-script text-[16pt] sm:text-[20pt] text-black px-4 py-2 border border-black bg-white hover:bg-gray-50 transition-colors shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
 				>
 					Submit
 				</button>

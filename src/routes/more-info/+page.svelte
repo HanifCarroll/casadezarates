@@ -48,7 +48,7 @@
 					href="https://www.indietraveller.co/where-to-stay-in-mexico-city/"
 					target="_blank"
 					rel="noopener"
-					class="group inline-flex items-center gap-3 px-6 py-3 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
+					class="group inline-flex items-center gap-3 px-4 py-2 border border-black bg-white hover:bg-gray-50 transition-colors duration-300 shadow-[5px_5px_0px_0px_#B6531B,5px_5px_0px_1px_black]"
 				>
 					<span class="font-script text-black text-[16pt] sm:text-[20pt]">Travel</span>
 					<svg class="w-5 h-5 text-black group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
