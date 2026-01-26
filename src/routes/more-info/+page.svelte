@@ -1,30 +1,15 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
-	import Logo from '$lib/components/Logo.svelte';
-
-	function openMenu() {
-		goto('/menu');
-	}
+	import Header from '$lib/components/Header.svelte';
 </script>
 
 <svelte:head>
 	<title>More Info | Markis + Olivia</title>
 </svelte:head>
 
-<main class="min-h-screen bg-rose flex flex-col">
-	<!-- Header with hamburger menu and logo - STICKY -->
-	<header class="fixed top-0 left-0 right-0 z-50 bg-rose p-6 flex items-start justify-between">
-		<button onclick={openMenu} class="p-2 hover:bg-white/10 rounded transition-colors">
-			<svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-			</svg>
-		</button>
-		<Logo />
-		<div class="w-10"></div>
-	</header>
+<div class="min-h-screen bg-rose flex flex-col">
+	<Header bgClass="bg-rose" hoverClass="hover:bg-white/10" />
 
-	<!-- Content - with padding for fixed header -->
-	<div class="flex-1 flex flex-col justify-center max-w-md mx-auto px-6 sm:px-8 py-8 text-center pt-32">
+	<main class="max-w-md mx-auto px-6 sm:px-8 py-8 text-center">
 		<!-- Airport -->
 		<section class="mb-10">
 			<h2 class="font-script text-[28pt] sm:text-[40pt] text-black mb-1">Airport:</h2>
@@ -56,5 +41,5 @@
 				</a>
 			</div>
 		</section>
-	</div>
-</main>
+	</main>
+</div>

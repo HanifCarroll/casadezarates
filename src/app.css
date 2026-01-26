@@ -12,9 +12,17 @@
   --font-family-script: "fig-script", cursive;
   --font-family-sans: "fig-sans", sans-serif;
   --font-family-mono: "prestige-elite-std", monospace;
+
 }
 
-html, body {
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll; /* Always show scrollbar to prevent layout shift */
+}
+
+body {
   height: 100%;
   margin: 0;
   padding: 0;
