@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import Logo from '$lib/components/Logo.svelte';
 
 	let fullName = $state('');
 	let status = $state('');
@@ -54,9 +55,7 @@
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 			</svg>
 		</button>
-		<div class="font-script text-2xl text-black text-center leading-tight">
-			M<br />+<br />O
-		</div>
+		<Logo />
 		<div class="w-10"></div>
 	</header>
 
